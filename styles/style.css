@@ -18,7 +18,7 @@ header {
 
 .content {
       width: 94%;
-      margin: 4em auto;
+      margin: 2em auto;
       font-size: 20px;
       line-height: 30px;
       text-align: justify;
@@ -46,8 +46,9 @@ nav ul {
       padding: 0;
       text-align: right;
       margin: 0;
-      padding-right: 40px;
+      padding-right: 0.5em;
       transition: 1s;
+      text-transform: uppercase;
 }
 
 nav.black ul {
@@ -56,7 +57,7 @@ nav.black ul {
 
 nav ul li {
       display: inline-block;
-      padding: 16px 40px;;
+      padding: 1em 40px;;
 }
 
 nav ul li a {
@@ -95,7 +96,7 @@ nav ul li a {
       }
 
       .showing {
-            max-height: 34em;
+            max-height: 36em;
       }
 
       nav ul li {
