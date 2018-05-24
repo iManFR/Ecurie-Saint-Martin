@@ -30,35 +30,32 @@ nav {
   position: fixed;
   width: 100%;
   line-height: 60px; }
-
-nav ul {
-  line-height: 60px;
-  list-style: none;
-  background: rgba(0, 0, 0, 0);
-  overflow: hidden;
-  color: #fff;
-  padding: 0;
-  text-align: right;
-  margin: 0;
-  transition: 1s; }
+  nav ul {
+    line-height: 60px;
+    list-style: none;
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    color: #fff;
+    padding: 0;
+    text-align: right;
+    margin: 0;
+    transition: 1s; }
+    nav ul li {
+      display: inline-block;
+      padding: 0 40px 0 0;
+      line-height: 60px; }
+    nav ul a {
+      display: inline-block;
+      text-decoration: none;
+      color: #666666;
+      font-size: 16px; }
 
 nav.black ul {
   background: #fff; }
 
-nav ul li {
-  display: inline-block;
-  padding: 0 40px 0 0;
-  line-height: 60px; }
-
 a:hover {
   text-decoration: none;
   color: #666666; }
-
-nav ul li a {
-  display: inline-block;
-  text-decoration: none;
-  color: #666666;
-  font-size: 16px; }
 
 .menu-icon {
   line-height: 60px;
@@ -112,7 +109,7 @@ footer {
         width: 60px;
         height: 60px;
         background: #fff;
-        text-align: center;
+        margin: auto;
         line-height: 60px;
         font-size: 40px;
         margin: 0 10px;
