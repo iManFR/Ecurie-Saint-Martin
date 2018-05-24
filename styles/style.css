@@ -40,11 +40,10 @@ nav ul {
   padding: 0;
   text-align: right;
   margin: 0;
-  padding-right: 40px;
   transition: 1s; }
 
 nav.black ul {
-  background: #000; }
+  background: #fff; }
 
 nav ul li {
   display: inline-block;
@@ -53,12 +52,12 @@ nav ul li {
 
 a:hover {
   text-decoration: none;
-  color: white; }
+  color: #666666; }
 
 nav ul li a {
   display: inline-block;
   text-decoration: none;
-  color: #fff;
+  color: #666666;
   font-size: 16px; }
 
 .menu-icon {
@@ -72,16 +71,13 @@ nav ul li a {
   color: #666666;
   display: none; }
 
-.container {
-  width: 100%; }
-
 .button-nav-effect::after {
   content: '';
   display: block;
   width: 0;
   height: 2px;
   margin-top: -20px;
-  background: #fff;
+  background: #666666;
   transition: width .3s; }
 
 .button-nav-effect:hover::after {
