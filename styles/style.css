@@ -10,15 +10,9 @@ body {
 header {
   position: relative;
   width: 100%;
+  height: 60px;
   background-size: cover;
   z-index: 999999; }
-
-.content {
-  width: 94%;
-  margin: 4em auto;
-  font-size: 20px;
-  line-height: 30px;
-  text-align: justify; }
 
 .logo img {
   margin-left: 2em;
@@ -33,13 +27,10 @@ nav {
   nav ul {
     line-height: 60px;
     list-style: none;
-    background: rgba(0, 0, 0, 0);
-    overflow: hidden;
-    color: #fff;
-    padding: 0;
-    text-align: right;
-    margin: 0;
-    transition: 1s; }
+    background: #fff;
+    height: 60px;
+    background-color: white;
+    text-align: right; }
     nav ul li {
       display: inline-block;
       padding: 0 40px 0 0;
@@ -49,9 +40,6 @@ nav {
       text-decoration: none;
       color: #666666;
       font-size: 16px; }
-
-nav.black ul {
-  background: #fff; }
 
 a:hover {
   text-decoration: none;
