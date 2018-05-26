@@ -14,3 +14,9 @@ $courantTextColor: #666666;
 //Footer
 $footerTextFont: "/fonts/Avenir/AvenirLTStd-Roman.otf";
 $footerTextSize: 16px;
+
+//fonts
+@font-face {
+	font-family: "AvenirRoman";
+	src: url("fonts/AvenirLTStd-Roman.otf") format("otf"),
+}

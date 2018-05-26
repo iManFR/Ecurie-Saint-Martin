@@ -1,99 +1,121 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="utf-8">
-    <title>titre de ma page</title>
-    <meta name="Description" content="Description de ma page"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/style.css"/>
-  </head>
-  <body>
-    <header>
-      <nav>
-        <div class="logo"><img src="images\logoGris.png" alt="#"></div>
-        <div class="menu">
-          <ul>
-            <li><a href="#" class="button-nav-effect">Acceuil</a></li>
-            <li><a href="#" class="button-nav-effect">Centre Equestre</a></li>
-            <li><a href="#" class="button-nav-effect">Installations</a></li>
-            <li><a href="#" class="button-nav-effect">Concours</a></li>
-            <li><a href="#" class="button-nav-effect">Contact</a></li>
-          </ul>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Les écuries de Saint Martin</title>
+        <meta name="author" content="">
+        <meta name="Description" content="Description de ma page"/>
+        <link href="styles/bootstrap.min.css" rel="stylesheet">
+        <link href="styles/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+            <div class="container">
+                <img src="images/logo.png">
+                <a class="navbar-brand" href="#">Les écuries de Saint Martin</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Accueil
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Centre équestre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Nos installations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Concours</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Commerce</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+            <!-- Slide One - Set the background image for this slide in the line below -->
+                <div class="carousel-item active" style="background-image: url('images/slide1.jpg')">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>First Slide</h3>
+                        <p>This is a description for the first slide.</p>
+                    </div>
+                </div>
+                <!-- Slide Two - Set the background image for this slide in the line below -->
+                <div class="carousel-item" style="background-image: url('images/slide2.jpg')">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Second Slide</h3>
+                        <p>This is a description for the second slide.</p>
+                    </div>
+                </div>
+                <!-- Slide Three - Set the background image for this slide in the line below -->
+                <div class="carousel-item" style="background-image: url('images/slide3.jpg')">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Third Slide</h3>
+                        <p>This is a description for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
-      </nav>
-    </header>
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-
-      <!-- Wrapper for slides -->
-      <div class="carousel-inner">
-        <div class="item active">
-          <img src="images/chavalNoir.jpg" alt="#">
+        <div class="container actuContainer">
+            <h1>Actualités</h1>
+            <div class="row align-items-center">
+                <div class="col-xl-6 justify-content-center align-items-center">
+                    <p>Programmes de la saison 2018 des concours CSO/CSI organiisés par <a href="#">l'AHMV</a> disponnible à la rublrique "<a href="#">Concours</a>"</p>
+                    <p>Le Dimande aux écuries sous c'est des animations, des balades, des sorties ou des concours.
+                    Demandez le planning !
+                    </p>
+                    <p>Besoin de plus d'infos:
+                    Coordonnées à la rubrique "<a href="#">Nous Contacter</a>"</p>
+                </div>
+                <div class="col-xl-6 d-flex justify-content-center align-items-center">
+                    <img src="images/actu.jpg">
+                </div>
+            </div>
         </div>
-
-        <div class="item">
-          <img src="images/chevalBlanc.jpg" alt="#">
+        <div class="container histoireContainer">
+            <h1>Notre Histoire</h1>
+            <div class="row align-items-center">
+                <div class="col-xl-6 d-flex justify-content-center align-items-center">
+                    <img src="images/a.jpg">
+                    <img src="images/b.jpg">
+                </div>
+                <div class="col-xl-6 justify-content-center align-items-center">
+                    <p>Cavalier professionnel depuis plus de 20 ans, Philippe vous accueille dans ses Ecuries de St Martin, dans les Yvelines, non loin de Paris et de la Normandie, dans un cadre de verdure.</p>
+                    <p>Philippe se spécialise dans la valorisation de chevaux de sport pour la compétition de saut d'obstacles à haut niveau national et international et dans la formation de jeunes chevaux.
+                    </p>
+                    <p>Plusieurs propriétaires lui font confiance depuis de nombreuses années pour son enseignement, son coaching en compétition, la valorisation et la commercialisation de leurs chevaux.</p>
+                    <p>L'enseignement de saut d'obstacles que Philippe propose est accessible pour tous les niveaux : cours particuliers, stages avec votre cheval dans ses installations, intervention dans d'autres structures pour des stages.</p>
+                    <p>Philippe intervient également régulièrement sur les concours en tant que Juge ou Chef de piste.</p>
+                    <p>Via l'association A.H.M.V (Association Hippique Mantois Vexin) et depuis plusieurs années maintenant, Philippe est l'organisateur chaque saison, de concours de saut d'obstacles qui ont lieu au Parc des Expositions sur l'Ile Aumône de Mantes la Jolie tels que le CSI**, la Tournée des As Poney, l'Amateur Gold Tour....</p>
+                </div>
+            </div>
         </div>
-
-        <div class="item">
-          <img src="images/background.jpg" alt="#">
-        </div>
-      </div>
-
-      <!-- Left and right controls -->
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-
-    <!--CONTAINER-->
-    <div class="container">
-
-    </div>
-
-
-    <!--footer-->
-    <footer>
-      <div class="row">
-        <div class="text-footer col-md-3">
-          © Les écuries de Saint Martin - Tous drois Réservés.
-        </div>
-        <div class="text-footer col-md-2">
-          Tél: 01 30 98 40 12
-        </div>
-        <div class="icons-footer col-md-2">
-          <ul>
-            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-          </ul>
-        </div>
-        <div class="text-footer col-md-3">
-          <a href="#">Email: ecuries.st-martin@gmail.com</a>
-        </div>
-        <div class="text-footer col-md-2">
-          <a href="#">A.H.M.V</a>
-          <a href="#">Mentions Légales</a>
-        </div>
-
-
-
-
-      </div>
-    </footer>
-    <script src="scripts/app.js"></script>
-  </body>
+    </body>
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/bootstrap.bundle.min.js"></script>
 </html>
