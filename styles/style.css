@@ -108,14 +108,10 @@ p {
   font-family: "Avenir Roman", sans-serif;
   color: #666666; }
 
-.actuContainer img {
-  width: 80%; }
-
 .actuContainer p {
   text-align: center; }
 
 .histoireContainer img {
-  width: 80%;
   padding: 5px; }
 
 .parallax {
@@ -136,5 +132,23 @@ p {
 
 .contactContainer p {
   text-align: center; }
+
+.underNav {
+  height: 58px; }
+
+.banner {
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 50px; }
+  .banner h1 {
+    position: absolute;
+    margin: 0;
+    color: white; }
+  .banner img {
+    width: 150%; }
+
+#label {
+  margin-top: 25px; }
 
 /*# sourceMappingURL=style.css.map */
