@@ -7,11 +7,21 @@
   -o-background-size: cover;
   background-size: cover;
 }
+hr{
+    width: 30%;
+}
 
 h1{
     text-align: center;
     margin: 20px 0px 40px 0px;
-    font-family: "AvenirRoman";
+    font-family: $interTitreFont;
+    font-size: $interTitreSize;
+}
+
+p{
+    font-size:$courantTextSize;
+    font-family: $courantTextFont;
+    color: $courantTextColor;
 }
 
 .actuContainer{
@@ -19,11 +29,18 @@ h1{
 }
 
 .actuContainer img{
-    width: 75%;
+    width: 80%;
 }
 
 .actuContainer p{
     text-align: center;
+}
+
+.histoireContainer{
+    img{
+        width: 80%;
+        padding: 5px;
+    }
 }
 
 .parallax {
@@ -38,7 +55,15 @@ h1{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    p{
+        color: white;
+    }
+    h1{
+        color: white;
+        padding-top: 20px;
+    }
 }
+
 
 .contactContainer{
     p{
