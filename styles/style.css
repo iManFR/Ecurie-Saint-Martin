@@ -127,10 +127,14 @@ a:hover {
   color: #000; }
 
 .poneyClubContainer .card {
-  margin: 5px; }
+  margin-bottom: 30px; }
 
-.card {
-  margin-bottom: 10px; }
+h2 {
+  text-align: center;
+  font-family: "AvenirLTStd-Medium", sans-serif; }
+
+.presentationInstallations p {
+  text-align: center; }
 
 .underNav {
   height: 58px; }
