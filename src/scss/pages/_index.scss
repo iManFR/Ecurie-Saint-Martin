@@ -62,10 +62,53 @@ p{
     }
 }
 
-.installationsContainer{}
 
 .contactContainer{
+  padding-bottom: 2em;
     p{
         text-align: center;
     }
+}
+
+
+.card{
+  padding: 0px;
+}
+
+.button-poneyClub{
+  margin-top:2em;
+  margin-bottom: 2em;
+  background-color: rgba(0,0,0,0);
+  color:#fff;
+  border-color: #fff;
+}
+
+.button-poneyClub:hover{
+  background-color: white;
+  border: #666666 solid 1px;
+  color:#666666;
+}
+
+.button-installations{
+  margin-top:2em;
+  margin-bottom: 2em;
+  background-color: rgba(0,0,0,0);
+  color:#666666;
+  border-color: #666666;
+}
+
+.button-installations:hover{
+  background-color: white;
+  border: #666666 solid 1px;
+  color:#666666;
+}
+
+a{
+  text-decoration: none;
+  color:#000;
+}
+
+a:hover{
+  text-decoration: none;
+  color:#000;
 }
