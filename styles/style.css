@@ -133,6 +133,9 @@ p {
 .contactContainer p {
   text-align: center; }
 
+.poneyClubContainer .card {
+  margin: 5px; }
+
 .underNav {
   height: 58px; }
 
