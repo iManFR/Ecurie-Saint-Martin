@@ -1,9 +1,6 @@
 @font-face {
   font-family: "Avenir Roman";
   src: url("../fonts/AvenirLTStd-Roman.otf") format("otf"); }
-@font-face {
-  font-family: "Oswald Medium";
-  src: url("../fonts/Oswald-Medium.otf") format("otf"); }
 .navbar a {
   color: black; }
 
