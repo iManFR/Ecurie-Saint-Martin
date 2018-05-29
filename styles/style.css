@@ -125,12 +125,29 @@ a:hover {
 
 .poneyClubContainer .card {
   margin-bottom: 30px; }
+.poneyClubContainer button {
+  margin: 22px 0px;
+  width: 120px; }
 
 h2 {
   text-align: center;
-  font-family: "AvenirLTStd-Medium", sans-serif; }
+  font-family: "AvenirLTStd-Medium", sans-serif;
+  margin-bottom: 40px; }
 
 .presentationInstallations p {
+  text-align: center; }
+
+.contactContainer button {
+  margin: 22px 40px;
+  width: 120px; }
+.contactContainer #fb {
+  background-color: #4267B2;
+  border: 0px; }
+.contactContainer #insta {
+  background-color: #D5417F;
+  border: 0px; }
+
+.formContainer p {
   text-align: center; }
 
 .underNav {
