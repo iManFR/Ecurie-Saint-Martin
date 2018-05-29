@@ -162,15 +162,16 @@ h2 {
 .presentationInstallations p {
   text-align: center; }
 
-.imgBlockBig {
-  height: 300px;
-  width: auto;
-  overflow: hidden;
-  position: relative; }
-  .imgBlockBig img {
-    position: absolute;
-    bottom: -150px; }
-
+/*.imgBlockBig{
+      height: 300px;
+      width: auto;
+      overflow: hidden;
+      position: relative;
+        img{
+          position: absolute;
+          bottom: -150px;
+        }
+}*/
 .contactContainer button {
   margin: 22px 40px;
   width: 120px; }
