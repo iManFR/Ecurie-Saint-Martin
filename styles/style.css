@@ -100,7 +100,7 @@ p {
 .button-poneyClub {
   margin-top: 2em;
   margin-bottom: 2em;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0);
   color: #fff;
   border-color: #fff; }
 
@@ -112,7 +112,7 @@ p {
 .button-installations {
   margin-top: 2em;
   margin-bottom: 2em;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0);
   color: #666666;
   border-color: #666666; }
 
@@ -140,7 +140,9 @@ a:hover {
   margin-bottom: 30px; }
 .poneyClubContainer button {
   margin: 22px 0px;
-  width: 120px; }
+  width: 120px;
+  background-color: #b71540;
+  border-color: #b71540; }
 
 h2 {
   text-align: center;
@@ -149,6 +151,15 @@ h2 {
 
 .presentationInstallations p {
   text-align: center; }
+
+.imgBlockBig {
+  height: 300px;
+  width: auto;
+  overflow: hidden;
+  position: relative; }
+  .imgBlockBig img {
+    position: absolute;
+    bottom: -150px; }
 
 .contactContainer button {
   margin: 22px 40px;
