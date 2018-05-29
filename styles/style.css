@@ -22,10 +22,11 @@ footer {
 .text-footer {
   text-align: center;
   color: #666666;
-  text-decoration: none;
-  display: flex;
-  justify-content: space-around;
-  align-items: center; }
+  text-decoration: none; }
+  .text-footer a {
+    color: #666666;
+    font-size: 16px;
+    font-size: 10px; }
 
 footer a:hover {
   text-decoration: none;
@@ -33,17 +34,9 @@ footer a:hover {
 
 .row {
   margin-right: 0px;
-  margin-left: 0px; }
-
-footer {
-  -webkit-box-shadow: 0px -2px 10px -8px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px -2px 10px -8px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px -2px 10px -8px rgba(0, 0, 0, 0.75);
-  align-items: center; }
-  footer .row a {
-    display: flex;
-    align-items: center;
-    justify-content: space-around; }
+  margin-left: 0px;
+  display: flex;
+  justify-content: space-around; }
 
 .carousel-item {
   height: 100vh;
@@ -96,7 +89,7 @@ p {
     text-align: center; }
 
 .card {
-  margin-bottom: 30px; }
+  padding: 0px; }
 
 .button-poneyClub {
   margin-top: 2em;
