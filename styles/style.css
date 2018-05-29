@@ -22,7 +22,10 @@ footer {
 .text-footer {
   text-align: center;
   color: #666666;
-  text-decoration: none; }
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
   .text-footer a {
     color: #666666;
     font-size: 16px;
@@ -94,7 +97,7 @@ p {
 .button-poneyClub {
   margin-top: 2em;
   margin-bottom: 2em;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
   color: #fff;
   border-color: #fff; }
 
@@ -106,7 +109,7 @@ p {
 .button-installations {
   margin-top: 2em;
   margin-bottom: 2em;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
   color: #666666;
   border-color: #666666; }
 

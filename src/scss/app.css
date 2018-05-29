@@ -1,92 +1,157 @@
-html, body {
-  margin: 0;
-  padding: 0;
-  width: 100%; }
+@font-face {
+  font-family: "Avenir Roman";
+  src: url("../fonts/AvenirLTStd-Roman.otf") format("otf"); }
+.navbar a {
+  color: black; }
 
-body {
-  font-family: "Helvetica Neue",sans-serif;
-  font-weight: lighter; }
+.navbar-brand {
+  font-size: 15px; }
 
-.content {
-  width: 94%;
-  margin: 4em auto;
-  font-size: 20px;
-  line-height: 30px;
-  text-align: justify; }
+.navbar img {
+  width: 5.5%;
+  margin-right: 15px; }
 
-.logo {
-  line-height: 40px;
-  position: fixed;
-  float: left;
-  margin: 16px 46px;
-  color: #fff;
-  font-weight: bold;
-  font-size: 20px;
-  letter-spacing: 2px; }
+.nav-item a {
+  text-transform: uppercase;
+  margin: 0px 5px; }
 
-nav {
-  position: fixed;
+footer {
   width: 100%;
-  line-height: 40px; }
+  font-size: 0.9em; }
 
-nav ul {
-  line-height: 40px;
-  list-style: none;
-  background: rgba(0, 0, 0, 0);
-  overflow: hidden;
-  color: #fff;
-  padding: 0;
-  text-align: right;
-  margin: 0;
-  padding-right: 40px;
-  transition: 1s; }
+.text-footer {
+  text-align: center;
+  color: #666666;
+  text-decoration: none; }
+  .text-footer a {
+    color: #666666;
+    font-size: 16px;
+    font-size: 10px; }
 
-nav.black ul {
-  background: #000; }
-
-nav ul li {
-  display: inline-block;
-  padding: 16px 40px; }
-
-nav ul li a {
+footer a:hover {
   text-decoration: none;
-  color: #fff;
-  font-size: 16px; }
+  color: #666666; }
 
-.menu-icon {
-  line-height: 60px;
-  width: 100%;
-  background: #000;
-  text-align: right;
-  box-sizing: border-box;
-  padding: 15px 24px;
-  cursor: pointer;
-  color: #fff;
-  display: none; }
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+  display: flex;
+  justify-content: space-around; }
 
-@media (max-width: 786px) {
-  .logo {
-    position: fixed;
-    top: 0;
-    margin-top: 16px; }
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
-  nav ul {
-    max-height: 0px;
-    background: #000; }
+hr {
+  width: 30%; }
 
-  nav.black ul {
-    background: #000; }
+h1 {
+  text-align: center;
+  margin: 20px 0px 40px 0px;
+  font-family: "Oswald", sans-serif;
+  font-size: 40px; }
 
-  .showing {
-    max-height: 34em; }
+p {
+  font-size: 16px;
+  font-family: "Avenir Roman", sans-serif;
+  color: #666666; }
 
-  nav ul li {
-    box-sizing: border-box;
-    width: 100%;
-    padding: 24px;
+.actuContainer p {
+  text-align: center; }
+
+.histoireContainer img {
+  padding: 5px; }
+
+.parallax {
+  /* The image used */
+  background-image: url("../images/chavalNoir.jpg");
+  /* Set a specific height */
+  height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .parallax p {
+    color: white; }
+  .parallax h1 {
+    color: white;
+    padding-top: 20px; }
+
+.contactContainer {
+  padding-bottom: 2em; }
+  .contactContainer p {
     text-align: center; }
 
-  .menu-icon {
-    display: block; } }
+.card {
+  padding: 0px; }
+
+.button-poneyClub {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  background-color: transparent;
+  color: #fff;
+  border-color: #fff; }
+
+.button-poneyClub:hover {
+  background-color: white;
+  border: #666666 solid 1px;
+  color: #666666; }
+
+.button-installations {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  background-color: transparent;
+  color: #666666;
+  border-color: #666666; }
+
+.button-installations:hover {
+  background-color: white;
+  border: #666666 solid 1px;
+  color: #666666; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+a:hover {
+  text-decoration: none;
+  color: #000; }
+
+.poneyClubContainer .card {
+  margin-bottom: 30px; }
+
+h2 {
+  text-align: center;
+  font-family: "AvenirLTStd-Medium", sans-serif; }
+
+.presentationInstallations p {
+  text-align: center; }
+
+.underNav {
+  height: 58px; }
+
+.banner {
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 50px; }
+  .banner h1 {
+    position: absolute;
+    margin: 0;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 20px; }
+  .banner img {
+    width: 150%; }
+
+#label {
+  margin-top: 25px; }
 
 /*# sourceMappingURL=app.css.map */
