@@ -75,7 +75,7 @@ p{
   margin-bottom:30px;
 }
 
-.button-poneyClub{
+/*.button-poneyClub{
   margin-top:2em;
   margin-bottom: 2em;
   background-color: rgba(0,0,0,0);
@@ -101,11 +101,11 @@ p{
   background-color: white;
   border: #666666 solid 1px;
   color:#666666;
-}
+}*/
 
 a{
   text-decoration: none;
-  color:#000;
+  color:#990f33;
 }
 
 a:hover{
@@ -120,4 +120,14 @@ a:hover{
   img{
     position:absolute;
   }
+}
+
+.btn{
+    background-color: #990f33;
+    border-color: #990f33;
+}
+
+.btn:hover{
+    background-color: #660921;
+    border-color: #660921;
 }
