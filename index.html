@@ -1,76 +1,193 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
     <head>
-        <title>KR- Learning Programming</title>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <link href="styles/style.css" rel="stylesheet" type="text/css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Les écuries de Saint Martin</title>
+        <meta name="author" content="">
+        <meta name="Description" content="Description de ma page"/>
+        <link rel="icon" sizes="64x64" href="images/favicon-64.png" type="image/png">
+        <link href="styles/bootstrap.min.css" rel="stylesheet">
+        <link href="styles/style.css" rel="stylesheet">
     </head>
     <body>
-        <!-- position relative is important-->
-        <div class="row">
-            <!--   this id image-slider is important and it will match on Left and right controls -->
-            <div id="image-slider" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                </ol>
-
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <!-- here is path of your images where is it in your server and computer-->
-                        <img src="images/slide1.jpg" alt="Los Angeles" style="width:100%;">
-                        <div class="title-subtilte">
-                            <h3>Responsive Slider for your website</h3>
-                            <p>It is a long established fact that a reader will be distracted by the readable content of a page It is a long established fact that</p>
-                        </div>
-                        <div class="slider-overlay"></div>
-                    </div>
-
-                    <div class="item">
-                        <!-- here is path of your images where is it in your server and computer-->
-                        <img src="images/slide2.jpg" alt="Chicago" style="width:100%;">
-                        <div class="title-subtilte">
-                            <h3>Web development with security</h3>
-                            <p>It is a long established fact that a reader will be distracted by the rIt is a long established fact that</p>
-                        </div>
-                        <div class="slider-overlay"></div>
-                    </div>
-
-                    <div class="item">
-                        <!-- here is path of your images where is it in your server and computer-->
-                        <img src="images/slide3.jpg" alt="New york" style="width:100%;">
-                        <div class="title-subtilte">
-                            <h3>Make responsive image slider</h3>
-                            <p>It is a long established fact that a reader will be distracted by the readable content of a page It is a long established fact that It is a long established fact</p>
-                        </div>
-                        <div class="slider-overlay"></div>
-                    </div>
-
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+            <div class="container">
+                <img src="images/logo.png">
+                <a class="navbar-brand" href="#">Les écuries de Saint Martin</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Accueil
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Centre équestre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Nos installations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Concours</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Commerce</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
                 </div>
-
-                <!-- Left and right controls -->
-
-                <!-- see this id above i have mention image-slider  -->
-                <a class="left carousel-control" href="#image-slider" data-slide="prev">
-                    <span class=""><i class="fa fa-angle-left" aria-hidden="true"></i></span>
-
-
-                </a>
-                <a class="right carousel-control" href="#image-slider" data-slide="next">
-                    <span class=""><i class="fa fa-angle-right" aria-hidden="true"></i></span>
-
-                </a>
             </div>
-
+        </nav>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+            <!-- Slide One - Set the background image for this slide in the line below -->
+                <div class="carousel-item active" style="background-image: url('images/slide1.jpg')">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Nos boxes</h3>
+                        <p>This is a description for the first slide.</p>
+                    </div>
+                </div>
+                <!-- Slide Two - Set the background image for this slide in the line below -->
+                <div class="carousel-item" style="background-image: url('images/slide2.jpg')">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Centre Equestre</h3>
+                        <p>This is a description for the second slide.</p>
+                    </div>
+                </div>
+                <!-- Slide Three - Set the background image for this slide in the line below -->
+                <div class="carousel-item" style="background-image: url('images/slide3.jpg')">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Concours</h3>
+                        <p>This is a description for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
+        <div class="container actuContainer">
+            <h1>Actualités</h1>
+            <div class="row align-items-center">
+                <div class="col-xl-6 justify-content-center">
+                    <p>Programmes de la saison 2018 des concours CSO/CSI organiisés par <a href="#">l'AHMV</a> disponnible à la rublrique "<a href="#">Concours</a>"</p>
+                    <p><u>Dimanche 3 Juin 2018</u><br>C'est la fête du poney aux écuries !<br>Animations, visite des installations, initiations gratuites sur poney, démonstration de caroussel, buvette.<br><strong>Info auprès de Malika au 0669977952</strong></p>
+                    <p><u>Le Dimande aux écuries</u><br>c'est des animations, des balades, des sorties ou des concours.
+                    Demandez le planning !
+                    </p>
+                    <p>Besoin de plus d'infos:
+                    Coordonnées à la rubrique "<a href="#">Nous Contacter</a>"</p>
+                </div>
+                <div class="col-xl-6 d-flex justify-content-center align-items-center">
+                    <img class="img-fluid" src="images/actu.jpg">
+                </div>
+            </div>
+        </div>
+        <hr/>
+        <div class="container histoireContainer">
+            <h1>Notre Histoire</h1>
+            <div class="row align-items-center">
+                <div class="col-xl-6 d-flex justify-content-center align-items-center flex-column">
+                    <img class="img-fluid" src="images/a.jpg">
+                    <img class="img-fluid" src="images/b.jpg">
+                </div>
+                <div class="col-xl-6 justify-content-center align-items-center">
+                    <p>Cavalier professionnel depuis plus de 20 ans, Philippe vous accueille dans ses Ecuries de St Martin, dans les Yvelines, non loin de Paris et de la Normandie, dans un cadre de verdure.</p>
+                    <p>Philippe se spécialise dans la valorisation de chevaux de sport pour la compétition de saut d'obstacles à haut niveau national et international et dans la formation de jeunes chevaux.
+                    </p>
+                    <p>Plusieurs propriétaires lui font confiance depuis de nombreuses années pour son enseignement, son coaching en compétition, la valorisation et la commercialisation de leurs chevaux.</p>
+                    <p>L'enseignement de saut d'obstacles que Philippe propose est accessible pour tous les niveaux : cours particuliers, stages avec votre cheval dans ses installations, intervention dans d'autres structures pour des stages.</p>
+                    <p>Philippe intervient également régulièrement sur les concours en tant que Juge ou Chef de piste.</p>
+                    <p>Via l'association A.H.M.V (Association Hippique Mantois Vexin) et depuis plusieurs années maintenant, Philippe est l'organisateur chaque saison, de concours de saut d'obstacles qui ont lieu au Parc des Expositions sur l'Ile Aumône de Mantes la Jolie tels que le CSI**, la Tournée des As Poney, l'Amateur Gold Tour....</p>
+                </div>
+            </div>
+        </div>
+        <div class="parallax">
+            <div class="container">
+                <h1>Centre équestre - Poney Club</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <button type="button" class="button-poneyClub btn btn-primary mx-auto d-block">En savoir plus</button>
+            </div>
+        </div>
+        <div class="container installationsContainer">
+            <h1>Nos installations</h1>
+            <div class="row">
+                <div class="card main shadow-sm col-xl-12">
+                    <img class="card-img-top" src="images/slide1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Nos boxes</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="card shadow-sm col-xl-6">
+                    <img class="card-img-top" src="images/slide1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">La carrière</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+                    </div>
+                </div>
+                <div class="card shadow-sm col-xl-6">
+                    <img class="card-img-top" src="images/slide1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Petite restauration</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="button-installations btn btn-primary mx-auto d-block">En savoir plus</button>
+        </div>
+        <hr/>
+        <div class="container contactContainer">
+            <h1>Où nous trouver ?</h1>
+            <div class="row align-items-center">
+                <div class="col-xl-6">
+                    <p>Les écuries de Saint Martin vous accueille et vous conseille, n’hésitez pas à nous contacter pour obtenir des plus amples renseignements sur nos services, notre structure ou nos tarifs. Nous serons ravis de vous informer.</p>
+                    <p><strong>Adresse:</strong><br>32 Chemin de la Croix Maurice78520<br>Saint-Martin-la-Garenne</p>
+                    <p><strong>Téléphone:</strong><br>06 69 97 79 52 (Poney Club/Centre équestre 06 80 17 67 66<br>(Pensions/Vente de chevaux)<br>01 30 98 40 12 (Bureau)</p>
+                    <p><strong>Email:</strong><br> ecuries.st-martin@gmail.com</p>
+                </div>
+                <div class="col-xl-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79005.37962094345!2d1.6500382593174645!3d49.03478790601456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6c07e36e9f395%3A0x3082e4019f08a00b!2sLes+%C3%A9curies+de+Saint+Martin!5e0!3m2!1sfr!2sfr!4v1526560393274" width="100%" height="400px;" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <footer class="shadow-footer">
+          <div class="row">
+            <a href="#" class="text-footer col-xl-2">© Les écuries de Saint Martin - Tous drois Réservés.</a>
+            <div class="text-footer col-xl-2">Tél: 01 30 98 40 12</div>
+            <a href="#" class="text-footer col-xl-2">Rejoignez-nous sur Facebook</a>
+            <a href="#" class="text-footer col-xl-3">Email: ecuries.st-martin@gmail.com</a>
+            <a href="#" class="text-footer col-xl-1">A.H.M.V</a>
+            <a href="#" class="text-footer col-xl-2">Mentions Légales</a>
+          </div>
+        </footer>
     </body>
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/bootstrap.bundle.min.js"></script>
 </html>

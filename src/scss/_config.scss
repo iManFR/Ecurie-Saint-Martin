@@ -1,0 +1,27 @@
+//Header
+$navTextColor: #666666;
+$navTextFont: "/fonts/Avenir/AvenirLTStd-Roman.otf";
+$navTextSize: 18px;
+
+//Pages
+$interTitreFont: "Oswald Medium", sans-serif;
+$interTitreSize: 40px;
+
+$courantTextFont: "Avenir Roman", sans-serif;
+$courantTextSize: 16px;
+$courantTextColor: #666666;
+
+//Footer
+$footerTextFont: "/fonts/Avenir/AvenirLTStd-Roman.otf";
+$footerTextSize: 16px;
+
+//fonts
+@font-face {
+	font-family: "Avenir Roman";
+	src: url("fonts/AvenirLTStd-Roman.otf") format("otf");
+}
+
+@font-face {
+	font-family: "Oswald Medium";
+	src: url("fonts/Oswald-Medium.otf") format("otf");
+}

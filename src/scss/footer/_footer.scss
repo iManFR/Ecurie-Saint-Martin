@@ -1,0 +1,29 @@
+footer{
+  width:100%;
+  font-size: 0.9em;
+}
+
+.text-footer{
+  text-align:center;
+  color: #666666;
+  text-decoration: none;
+  a{
+    color: #666666;
+    font-size: 16px;
+    font-size: 10px;
+  }
+}
+
+footer{
+  a:hover{
+    text-decoration: none;
+    color:#666666;
+  }
+}
+
+.row{
+  margin-right: 0px;
+  margin-left: 0px;
+  display:flex;
+  justify-content: space-around;
+}
