@@ -125,6 +125,9 @@ a:hover {
 
 .poneyClubContainer .card {
   margin-bottom: 30px; }
+.poneyClubContainer button {
+  margin: 26px 0px;
+  width: 120px; }
 
 h2 {
   text-align: center;
