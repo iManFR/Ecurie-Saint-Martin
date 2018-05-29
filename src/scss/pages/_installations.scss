@@ -1,3 +1,15 @@
 .presentationInstallations p{
   text-align: center;
 }
+
+
+.imgBlockBig{
+      height: 300px;
+      width: auto;
+      overflow: hidden;
+      position: relative;
+    img{
+      position: absolute;
+      bottom: -150px;
+    }
+}
