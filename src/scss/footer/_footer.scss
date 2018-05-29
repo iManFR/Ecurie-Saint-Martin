@@ -1,7 +1,9 @@
 footer{
   width:100%;
   font-size: 0.9em;
-
+  -webkit-box-shadow: 0px 0.125rem 10px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0.125rem -2px rgba(0,0,0,0.75);
+  box-shadow: 0px 0.125rem -2px rgba(0,0,0,0.75);
 }
 
 .text-footer{
