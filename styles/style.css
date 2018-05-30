@@ -55,7 +55,8 @@ footer a:hover {
   background-size: cover; }
 
 hr {
-  width: 30%; }
+  width: 30%;
+  margin: 25px auto; }
 
 h1 {
   text-align: center;
@@ -188,6 +189,9 @@ h2 {
 
 .formContainer p {
   text-align: center; }
+
+.formContainer {
+  margin-bottom: 20px; }
 
 .underNav {
   height: 58px; }
