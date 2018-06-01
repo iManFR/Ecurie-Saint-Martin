@@ -173,16 +173,6 @@ h2 {
           bottom: -150px;
         }
 }*/
-.left {
-  width: 100%;
-  height: 200px;
-  background-color: red; }
-
-.right {
-  width: 100%;
-  height: 200px;
-  background-color: blue; }
-
 .textPresentation p {
   text-align: center; }
 
