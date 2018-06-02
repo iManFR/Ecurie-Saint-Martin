@@ -196,6 +196,23 @@ h2 {
   font-family: "Oswald", sans-serif;
   font-size: 40px; }
 
+.block {
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  border: 1px solid red; }
+
+.img {
+  display: flex; }
+
+.text ul {
+  list-style: none; }
+  .text ul li {
+    color: #666666;
+    font-family: "Avenir Roman", sans-serif;
+    font-size: 16px; }
+
 .contactContainer button {
   margin: 22px 40px;
   width: 120px; }
