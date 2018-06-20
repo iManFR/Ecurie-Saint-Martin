@@ -42,6 +42,11 @@ p{
     }
 }
 
+.carousel a{
+  color:white;
+  text-decoration: none;
+}
+
 .parallax {
     /* The image used */
     background-image: url("../images/installations/CentreEquestre.png");
@@ -104,12 +109,12 @@ p{
   color:#666666;
 }*/
 
-a{
+.container a{
   text-decoration: none;
   color:#990f33;
 }
 
-a:hover{
+.container a:hover{
   text-decoration: none;
   color:#000;
 }

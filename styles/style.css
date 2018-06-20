@@ -75,6 +75,10 @@ p {
 .histoireContainer img {
   padding: 5px; }
 
+.carousel a {
+  color: white;
+  text-decoration: none; }
+
 .parallax {
   /* The image used */
   background-image: url("../images/installations/CentreEquestre.png");
@@ -126,11 +130,11 @@ p {
   border: #666666 solid 1px;
   color:#666666;
 }*/
-a {
+.container a {
   text-decoration: none;
   color: #990f33; }
 
-a:hover {
+.container a:hover {
   text-decoration: none;
   color: #000; }
 
