@@ -83,14 +83,15 @@ p {
   /* The image used */
   background-image: url("../images/installations/CentreEquestre.jpg");
   /* Set a specific height */
-  height: 500px;
+  height: 400px;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
   .parallax p {
-    color: #fff; }
+    color: #fff;
+    text-align: center; }
   .parallax h1 {
     color: #fff;
     padding-top: 20px; }
