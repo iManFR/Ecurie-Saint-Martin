@@ -77,7 +77,7 @@ p {
 
 .parallax {
   /* The image used */
-  background-image: url("../images/chavalNoir.jpg");
+  background-image: url("../images/installations/CentreEquestre.png");
   /* Set a specific height */
   height: 500px;
   /* Create the parallax scrolling effect */
@@ -86,9 +86,9 @@ p {
   background-repeat: no-repeat;
   background-size: cover; }
   .parallax p {
-    color: white; }
+    color: #fff; }
   .parallax h1 {
-    color: white;
+    color: #fff;
     padding-top: 20px; }
 
 .contactContainer {
