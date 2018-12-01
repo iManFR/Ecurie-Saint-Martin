@@ -1,0 +1,278 @@
+@font-face {
+  font-family: "Avenir Roman";
+  src: url("../fonts/AvenirLTStd-Roman.otf") format("otf"); }
+.navbar a {
+  color: black; }
+
+.navbar-brand {
+  font-size: 15px; }
+
+.navbar img {
+  width: 5.5%;
+  margin-right: 15px; }
+
+.nav-item a {
+  text-transform: uppercase;
+  margin: 0px 5px; }
+
+footer {
+  width: 100%;
+  font-size: 0.9em;
+  -webkit-box-shadow: 0px 0.125rem 10px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0.125rem -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0.125rem -2px rgba(0, 0, 0, 0.75);
+  margin-top: 25px; }
+
+.text-footer {
+  text-align: center;
+  color: #666666;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+  .text-footer a {
+    color: #666666;
+    font-size: 16px;
+    font-size: 10px; }
+
+footer a:hover {
+  text-decoration: none;
+  color: #ff0000; }
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+  display: flex;
+  justify-content: space-around; }
+
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+hr {
+  width: 30%;
+  margin: 25px auto; }
+
+h1 {
+  text-align: center;
+  margin: 20px 0px 40px 0px;
+  font-family: "Oswald", sans-serif;
+  font-size: 40px; }
+
+p {
+  font-size: 16px;
+  font-family: "Avenir Roman", sans-serif;
+  color: #666666; }
+
+.actuContainer p {
+  text-align: center; }
+
+.histoireContainer img {
+  padding: 5px; }
+
+.carousel a {
+  color: white;
+  text-decoration: none; }
+
+.parallax {
+  /* The image used */
+  background-image: url("../images/installations/CentreEquestre.jpg");
+  /* Set a specific height */
+  height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .parallax p {
+    color: #fff;
+    text-align: center; }
+  .parallax h1 {
+    color: #fff;
+    padding-top: 20px; }
+
+.contactContainer {
+  padding-bottom: 2em; }
+  .contactContainer p {
+    text-align: center; }
+
+.card {
+  margin-bottom: 30px; }
+
+/*.button-poneyClub{
+  margin-top:2em;
+  margin-bottom: 2em;
+  background-color: rgba(0,0,0,0);
+  color:#fff;
+  border-color: #fff;
+}
+
+.button-poneyClub:hover{
+  background-color: white;
+  border: #666666 solid 1px;
+  color:#666666;
+}
+
+.button-installations{
+  margin-top:2em;
+  margin-bottom: 2em;
+  background-color: rgba(0,0,0,0);
+  color:#666666;
+  border-color: #666666;
+}
+
+.button-installations:hover{
+  background-color: white;
+  border: #666666 solid 1px;
+  color:#666666;
+}*/
+.container a {
+  text-decoration: none;
+  color: #990f33; }
+
+.container a:hover {
+  text-decoration: none;
+  color: #000; }
+
+.img-block-full {
+  height: 50vh;
+  position: relative;
+  overflow: hidden; }
+  .img-block-full img {
+    position: absolute; }
+
+.btn {
+  background-color: #990f33;
+  border-color: #990f33; }
+
+.btn:hover {
+  background-color: #660921;
+  border-color: #660921; }
+
+.poneyClubContainer .card {
+  margin-bottom: 30px; }
+.poneyClubContainer button {
+  margin: 22px 0px;
+  width: 120px; }
+
+h2 {
+  text-align: center;
+  font-family: "AvenirLTStd-Medium", sans-serif;
+  margin-bottom: 40px; }
+
+.presentationInstallations p {
+  text-align: center; }
+
+/*.imgBlockBig{
+      height: 300px;
+      width: auto;
+      overflow: hidden;
+      position: relative;
+        img{
+          position: absolute;
+          bottom: -150px;
+        }
+}*/
+.card {
+  min-height: 404.45px; }
+
+.contactContainer button {
+  margin: 22px 40px;
+  width: 120px; }
+.contactContainer #fb {
+  background-color: #4267B2;
+  border: 0px; }
+.contactContainer #insta {
+  background: #f09433;
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  border: 0px; }
+
+.img-fluid {
+  margin: 5px; }
+
+.container .row .col-xl-6 {
+  padding-right: 0px; }
+
+.textPresentation p {
+  text-align: left; }
+
+h2 {
+  text-align: center;
+  margin: 20px 0px 40px 0px;
+  font-family: "Oswald", sans-serif;
+  font-size: 40px; }
+
+.sell {
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-around;
+  padding: 1em;
+  border: 1px;
+  -webkit-box-shadow: 0px 0.1rem 10px -2px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0.1rem -2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0.1rem -2px rgba(0, 0, 0, 0.5); }
+
+.text ul {
+  list-style: none; }
+  .text ul li {
+    color: #666666;
+    font-family: "Avenir Roman", sans-serif;
+    font-size: 16px; }
+
+.contactContainer button {
+  margin: 22px 40px;
+  width: 120px; }
+.contactContainer #fb {
+  background-color: #4267B2;
+  border: 0px; }
+.contactContainer #insta {
+  background: #f09433;
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  border: 0px; }
+
+.formContainer p {
+  text-align: center; }
+
+.formContainer {
+  margin-bottom: 20px; }
+
+.underNav {
+  height: 58px; }
+
+.banner {
+  position: relative;
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 50px; }
+  .banner h1 {
+    position: absolute;
+    margin: 0;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 20px;
+    z-index: 2; }
+  .banner img {
+    width: 100%;
+    position: absolute;
+    z-index: 1; }
+
+#label {
+  margin-top: 25px; }
+
+h5.construction {
+  margin-top: 50px; }
+
+/*# sourceMappingURL=app.css.map */
